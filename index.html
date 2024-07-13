@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+      integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      
+      <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Bivek
+        <span>Singh</span></a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Project</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Bivek</span></h1>
+        <h3 class="text-animation">I'am an <span></span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fugiat
+          numquam necessitatibus quibusdam excepturi ab reiciendis soluta
+          inventore provident? Voluptas corporis inventore nesciunt nulla .</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="images/profile-img.png" alt>
+      </div>
+    </section>
+    <!-- Project Sections -->
+    <section class="projects" id="projects">
+      <div class="container-long-videos">
+        <h2 class="main-heading">My Work</h2>
+        <h3 class="sub-heading" style="text-align: center;">Long-Form</h3>
+        <div class="row">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
+                src="https://www.youtube.com/embed/YL5sFUCgJ4Q?si=RwCh-R36dU1-ExYT"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/YL5sFUCgJ4Q?si=RwCh-R36dU1-ExYT"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/Cmk0XUzr3FM?si=4FN1We9NHGX1Ug0D"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Short Videos Sections -->
+    <section class="short-video-section">
+      <h2 class="sub-heading" style="color: #00ffee; font-weight: bold;
+    text-shadow: 0 0 25px #00ffee; padding:2.5px ">Short-Form</h2>
+      <h3 class="sub-heading">Tech</h3>
+      <div class="row flex-container">
+        <div class="col flex-item mb-4">
+          <div class="col flex-item mb-4">
+            <div class="vertical-card">
+              <iframe src="https://www.youtube.com/embed/Z2QKW3lwoBg"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/5pB0x3cpktQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="sub-heading">Real Estate</h4>
+      <div class="row flex-container">
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/5pB0x3cpktQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/G-SL91AIXj4?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="sub-heading">Talking Head</h4>
+      <div class="row flex-container">
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/5pB0x3cpktQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/5pB0x3cpktQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="sub-heading">3D Animation</h4>
+      <div class="row flex-container">
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/JVMKvJKnTK8?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col flex-item mb-4">
+          <div class="vertical-card">
+            <iframe src="https://www.youtube.com/embed/9HKOTP8qVHU?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br/>
+    <!------ Testimonial section --------------->
+  <div id="testimonial">
+     <h1 style="text-align:center;color: #00ffee; font-weight: bolder;
+    text-shadow: 0 0 25px #00ffee; padding:2.5px; font-size:30px ">Testimonial</h1>
+          <br/>   
+  <div class="container-testimonial">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="slider-card">
+          <button class="nav-button left">&lt;</button>
+          <button class="nav-button right">&gt;</button>
+          <div class="slider">
+            <div>
+              <iframe src="//www.youtube.com/embed/1TYl3jhfEDA?rel=0" allowfullscreen frameborder="0" name="slider"></iframe>
+            </div>
+            <span>
+              <a href="//www.youtube.com/embed/1TYl3jhfEDA?rel=0&autoplay=1" target="slider"></a>
+              <a href="//www.youtube.com/embed/xFa2_PVMeDQ?rel=0&autoplay=1" target="slider"></a>
+              <a href="//www.youtube.com/embed/hSrOpTYKNMw?rel=0&autoplay=1" target="slider"></a>
+              <a href="//www.youtube.com/embed/WFhzzJjRncI?rel=0&autoplay=1" target="slider"></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- Customer reviews -->
+  <section>
+    <h1 style="text-align:center;color: #00ffee; font-weight: bolder;
+    text-shadow: 0 0 25px #00ffee; padding:2.5px ; font-size:30px ">Customer Reviews</h1>
+    <div id="cCarousel">
+      <div class="arrow" id="prev"><i class="fa-solid fa-chevron-left"></i></div>
+      <div class="arrow" id="next"><i class="fa-solid fa-chevron-right"></i></div>
+  
+      <div id="carousel-vp">
+        <div id="cCarousel-inner">
+  
+          <article class="cCarousel-item">
+            <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+            <div class="infos">
+              <h3>Title 1 / 6</h3>
+            
+            </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+            <div class="infos">
+              <h3>Title 2 / 6</h3>
+            
+            </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+            <div class="infos">
+              <h3>Title 3 / 6</h3>
+             
+            </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+            <div class="infos">
+              <h3>Title 4 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+            <div class="infos">
+              <h3>Title 5 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <img src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+            <div class="infos">
+              <h3>Title 6 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- Swiper JS -->
+<!-- <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script> -->
+
+<!-- JavaScript -->
+<!--Uncomment this line-->
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+</html>
+<!-- Customer revies ends -->
+ <!-- services section -->
+ <section class="service-section">
+  <h1 style="text-align:center;color: #00ffee; font-weight: bold;
+    text-shadow: 0 0 25px #00ffee; padding:2.5px ;font-size:20px ">Services</h1>
+  <div class="service-row">
+    <div class="service">
+      <i class="ri-macbook-line"></i>
+      <h3>Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-store-3-line"></i>
+      <h3>Marketing</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-database-2-line"></i>
+      <h3>Data Analysis</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-palette-line"></i>
+      <h3>Graphic Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-android-line"></i>
+      <h3>App Development</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-account-box-line"></i>
+      <h3>Accouting</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-hand-coin-line"></i>
+      <h3>Business Management</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="service">
+      <i class="ri-english-input"></i>
+      <h3>English Teaching</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+</section> 
+<!-- skill section -->
+<section class="skill-container">
+    <h1 style="text-align:center;color: #00ffee; font-weight: bolder;
+    text-shadow: 0 0 25px #00ffee; font-size:30px">Skills</h1>  
+  <section class="card__container">
+
+    <!--==================== SERVICE CARD ====================-->
+    <div class="card__bx card__1">
+      <div class="card__data">
+        <div class="card__icon">
+          <div class="card__icon-bx">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </div>
+        </div>
+        <div class="card__content">
+          <h3>Design</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card__bx card__2">
+      <div class="card__data">
+        <div class="card__icon">
+          <div class="card__icon-bx"><i class="fa-solid fa-code"></i></div>
+        </div>
+        <div class="card__content">
+          <h3>Development</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card__bx card__3">
+      <div class="card__data">
+        <div class="card__icon">
+          <div class="card__icon-bx"><i class="fa-solid fa-rocket"></i></div>
+        </div>
+        <div class="card__content">
+          <h3>Lauch</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</section>
+<!-- contact section -->
+
+<h3 style="text-align:center;color: #00ffee; font-weight: bold; font-size:30px">Contact</h3><div class="contact-container">
+  <span class="big-circle"></span>
+  <img src="img/shape.png" class="square" alt="" />
+  <div class="form">
+    <div class="contact-info">
+      <h3 class="title">Let's get in touch</h3>
+      <h2 class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        dolorum adipisci recusandae praesentium dicta!
+      </h2>
+
+      <div class="info">
+        <div class="information">
+          <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+
+          <h4>92 Cherry Drive Uniondale, NY 11553</h4>
+        </div>
+        <div class="information">
+          <i class="fas fa-envelope"></i> &nbsp &nbsp
+          <h4>lorem@ipsum.com</h4>
+        </div>
+        <div class="information">
+          <i class="fas fa-phone"></i>&nbsp&nbsp
+          <h4>123-456-789</h4>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <h4>Connect with us :</h4>
+        <div class="social-icons-contact">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <span class="circle one"></span>
+      <span class="circle two"></span>
+
+      <form action="index.html" autocomplete="off">
+        <h3 class="title">Contact us</h3>
+        <div class="input-container">
+          <input type="text" name="name" class="input" />
+          <label for="">Name</label>
+          <span>Name</span>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" class="input" />
+          <label for="">Email</label>
+          <span>Email</span>
+        </div>
+        <div class="input-container">
+          <input type="tel" name="phone" class="input" />
+          <label for="">Phone</label>
+          <span>Phone</span>
+        </div>
+        <div class="input-container textarea">
+          <textarea name="message" class="input"></textarea>
+          <label for="">Message</label>
+          <span>Message</span>
+        </div>
+        <input type="submit" value="Send" class="btn" />
+      </form>
+    </div>
+  </div>
+</div>
+<!-- footer section -->
+ <footer class="footer">
+  <div class="footer-social">
+    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <ul class="list">
+    <li>
+      <a href="#">FAQ</a>
+    </li>
+    <li>
+      <a href="#">services</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">contact</a>
+    </li>
+    <li>
+      <a href="#">Testimonial</a>
+    </li>
+    <p class="copyright">
+        &COPY; Bivek Singh | All right right Reserved
+    </p>
+
+  </ul>
+ </footer>
+    <script src="script.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </body>
+</html>
