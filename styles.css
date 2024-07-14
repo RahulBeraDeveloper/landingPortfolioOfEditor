@@ -166,7 +166,7 @@ span{
     background-color: var(--main-color);
 }
 
-.btn {
+.btn-contact {
   display: inline-block;
   padding: 1rem 2.8rem;
   background-color: var(--main-color);
@@ -181,7 +181,7 @@ span{
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-contact:hover {
   transform: scale(1.05);
   box-shadow: 0 0 50px var(--main-color);
 }
@@ -260,9 +260,9 @@ span{
 @keyframes words{
     0%, 20% { content: "Editor"; }
     20%, 40% { content: "Cinematographer"; }
-    40%, 60% { content: "Scriptwriter"; }
+    40%, 60% { content: "Cinematic Editing"; }
     60%, 80% { content: "3D Artist"; }
-    80%, 100% { content: "VFX YOYO"; }
+    80%, 100% { content: "Visual Effects"; }
 }
 @keyframes typing{
     10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%,90%,95% {
@@ -1935,7 +1935,7 @@ body {
         font-size: 2.6rem;
       }
       .home-content h1{
-        font-size: 8rem;
+        font-size: 4rem;
         margin-top: 3rem;
       }
       .home-content p{
@@ -1949,6 +1949,10 @@ body {
       }
       .services-container {
         grid-template-columns: repeat(1,1fr);
+      }
+      .btn-contact{
+        padding: 0.9rem 2.6rem;
+        font-size: 1.4rem;
       }
 }
 
