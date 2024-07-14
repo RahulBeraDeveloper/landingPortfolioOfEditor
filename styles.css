@@ -1950,10 +1950,10 @@ body {
       .services-container {
         grid-template-columns: repeat(1,1fr);
       }
-      .btn-contact{
+      /* .btn-contact{
         padding: 0.9rem 2.6rem;
         font-size: 1.4rem;
-      }
+      } */
 }
 
 
