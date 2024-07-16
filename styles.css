@@ -49,21 +49,7 @@ body{
 .logo span{
     text-shadow: 0 0 25px var(--main-color);
 }
-/* .navbar a{
-    font-size: 1.8rem;
-    color:var(--text-color);
-    margin-left: 4rem;
-    font-weight: 500;
-    transition:0.3s ease;
-    border-bottom: 3px solid transparent;
 
-} */
-/* .navbar a:hover,
-.navbar a.active{
-    color:var(--main-color);
-    border-bottom: 3px solid var(--main-color);
-
-} */
 .navbar a {
     font-size: 1.8rem;
     color: var(--text-color); /* Default text color is white */
@@ -258,11 +244,11 @@ span{
     }
 }
 @keyframes words{
-    0%, 20% { content: "Editor"; }
-    20%, 40% { content: "Cinematographer"; }
+    0%, 20% { content: "Cinematographer"; }
+    20%, 40% { content: "Content Specialist"; }
     40%, 60% { content: "Cinematic Editing"; }
-    60%, 80% { content: "3D Artist"; }
-    80%, 100% { content: "Visual Effects"; }
+    60%, 80% { content: "Visual Effects"; }
+    80%, 100% { content: "Editor"; }
 }
 @keyframes typing{
     10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%,90%,95% {
